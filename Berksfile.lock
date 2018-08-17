@@ -1,0 +1,21 @@
+DEPENDENCIES
+  apache2 (~> 5.0.1)
+  java (~> 2.2.0)
+  mysql (~> 8.5.1)
+  project_cookbooks
+    path: .
+    metadata: true
+  tomcat (~> 3.0.0)
+  windows (~> 5.0.0)
+
+GRAPH
+  apache2 (5.0.1)
+  homebrew (5.0.4)
+  java (2.2.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  mysql (8.5.1)
+  project_cookbooks (0.1.0)
+    mysql (~> 8.0)
+  tomcat (3.0.0)
+  windows (5.0.0)
