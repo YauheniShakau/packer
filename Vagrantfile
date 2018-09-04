@@ -1,4 +1,6 @@
-# -*- mode: ruby -*-
+# -*- mode: ruby -*-:q;
+# 
+
 # vi: set ft=ruby :
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
@@ -12,7 +14,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box     = "ubuntu/trusty64"
+  config.vm.box     = "ubuntu-14.04-server-amd64.box"
   config.vm.provision "chef_solo" do |chef|
     # Add a recipe
     chef.add_recipe "apache2"
@@ -47,7 +49,7 @@ Vagrant.configure("2") do |config|
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
-  # config.vm.network "public_network"
+  # config.vm.network "public_network", bridge "wlp4s0"
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is

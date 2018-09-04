@@ -7,9 +7,9 @@
     {
       "type": "virtualbox-iso",
       "guest_os_type": "Ubuntu_64",
-      "iso_url": "http://releases.ubuntu.com/trusty/ubuntu-14.04.5-server-amd64.iso",
-      "iso_checksum": "dde07d37647a1d2d9247e33f14e91acb10445a97578384896b4e1d985f754cc1",
-      "iso_checksum_type": "sha256",
+      "iso_url": "/home/eugene/Downloads/ubuntu-14.04.5-server-amd64.iso",
+      "iso_checksum": "dd54dc8cfc2a655053d19813c2f9aa9f",
+      "iso_checksum_type": "md5",
       "http_directory": "http",
       "disk_size": 15360,
       "headless": false,
@@ -71,6 +71,7 @@
   "post-processors": [
     {
       "type": "vagrant",
+      "compression_level": 6,
       "output": "ubuntu-14.04-server-amd64.box"
     }
   ]
