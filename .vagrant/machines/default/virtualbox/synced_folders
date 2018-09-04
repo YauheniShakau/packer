@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/eugene/work/packer","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/eugene/work/packer","disabled":false,"__vagrantfile":true},"v-csc-2768e5531":{"id":"v-csc-2768e5531","guestpath":"/tmp/vagrant-chef/b975072e813906fff012c35228bb1811/cookbooks","hostpath":"/home/eugene/work/packer/cookbooks","disabled":false,"__vagrantfile":true}}}
