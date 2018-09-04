@@ -1,4 +1,4 @@
-# project_cookbooks
+# Packer taraining repo
 
-TODO: Enter the cookbook description here.
+TODO: Install mysql server and client.
 

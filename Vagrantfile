@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box     = "ubuntu-14.04-server-amd64"
+  config.vm.box     = "ubuntu/trusty64"
   config.vm.provision "chef_solo" do |chef|
     # Add a recipe
     chef.add_recipe "apache2"
